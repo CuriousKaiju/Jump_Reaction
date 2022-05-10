@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1494491397187889001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494491397187889003}
+  - component: {fileID: 1494491397187889002}
+  m_Layer: 0
+  m_Name: GUN + ROTATOR (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1494491397187889003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494491397187889001}
+  m_LocalRotation: {x: -0, y: -0.7145404, z: -0, w: 0.69959414}
+  m_LocalPosition: {x: -2.85, y: 0.69, z: 3.58}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 473469782276489018}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -91.211, z: 0}
+--- !u!114 &1494491397187889002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494491397187889001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f7feb471747d64dbe6f2c192268db5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gunPlatformRotationDirection: {x: 0, y: 0, z: 0}
+  _rotationAngle: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
+  _desiredTimeForRotation: 1
+--- !u!1001 &1494491396864268682
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1494491397187889003}
+    m_Modifications:
+    - target: {fileID: 911142488768838626, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: _liliSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 911142488768838626, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: _gunHaveNoShots
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 911142488768838626, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: _isThisPlatformLikeRotationButton
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435632110858396, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: _isItButtonForRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435632110858397, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: _isItPlatformForRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999619
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0054580425
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000017372611
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.006810566
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310435633260422833, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+      propertyPath: m_Name
+      value: GUN PREFAB
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+--- !u!4 &473469782276489018 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1310435633260422832, guid: e3819392fe34f3545a1e4dbc7fedfaa3, type: 3}
+  m_PrefabInstance: {fileID: 1494491396864268682}
+  m_PrefabAsset: {fileID: 0}
